@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Simples</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@clerk/clerk-js"></script>
+</head>
+<body>
+  <header>
+    <h1>Loja Simples</h1>
+    <a href="cart.html">Carrinho 🛒</a>
+    <div id="user-auth"></div>
+  </header>
+
+  <main>
+    <div class="products">
+      <div class="product" data-id="1" data-name="Produto A" data-price="20.00">
+        <h2>Produto A</h2>
+        <p>R$ 20,00</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="product" data-id="2" data-name="Produto B" data-price="35.00">
+        <h2>Produto B</h2>
+        <p>R$ 35,00</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+      <div class="product" data-id="3" data-name="Produto C" data-price="50.00">
+        <h2>Produto C</h2>
+        <p>R$ 50,00</p>
+        <button class="add-to-cart">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
